@@ -1,0 +1,35 @@
+{
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "env-cmd node index.js",
+		"dev": "env-cmd nodemon rs",
+		"lint": "xo"
+	},
+	"dependencies": {
+		"express": "^4.17.3",
+		"helmet": "^4.4.1",
+		"jwt-simple": "^0.5.6",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"env-cmd": "10.1.0",
+		"nodemon": "2.0.4",
+		"xo": "0.32.1"
+	},
+	"xo": {
+		"rules": {
+			"unicorn/prefer-query-selector": "off",
+			"quote-props": "warn",
+			"eqeqeq": "off",
+			"array-callback-return": "warn",
+			"require-atomic-updates": "warn",
+			"no-else-return": "warn",
+			"camelcase": "off",
+			"no-unused-vars": "warn",
+			"no-return-await": "warn",
+			"no-undef": "warn"
+		},
+		"semicolon": false
+	}
+}
