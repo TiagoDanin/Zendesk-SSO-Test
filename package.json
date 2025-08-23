@@ -13,7 +13,7 @@
 		"uuid": "^8.3.2"
 	},
 	"devDependencies": {
-		"env-cmd": "10.1.0",
+		"env-cmd": "11.0.0",
 		"nodemon": "2.0.15",
 		"xo": "0.48.0"
 	},
