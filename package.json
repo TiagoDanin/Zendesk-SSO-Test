@@ -7,7 +7,7 @@
 		"lint": "xo"
 	},
 	"dependencies": {
-		"express": "^4.17.3",
+		"express": "^5.0.0",
 		"helmet": "^4.4.1",
 		"jsonwebtoken": "^8.5.1",
 		"uuid": "^8.3.2"
